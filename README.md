@@ -18,7 +18,7 @@ Este projeto faz parte do desafio "Microsoft Certification Challenge #1 AI 102" 
 
 ### Como Utilizar
 1. **Pré-requisitos**:
-   - Python 3.6 ou superior.
+   - Python 3.11 ou superior.
    - Biblioteca `requests` e `beautifulsoup4`. Instale-as utilizando:
      ```sh
      pip install requests beautifulsoup4
@@ -44,7 +44,6 @@ Este projeto faz parte do desafio "Microsoft Certification Challenge #1 AI 102" 
 
 ### Exemplo de Uso
 ```python
-if __name__ == "__main__":
     url_artigo = "https://example.com/artigo-exemplo"  # URL do artigo a ser traduzido
     translate_article(url_artigo)
 ```
